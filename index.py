@@ -62,14 +62,14 @@ Label(cliente, text="Retirar Senha",font=("arial", 16)).pack(pady=20)
 
 Button(
     cliente,
-    text="gerar senha",
+    text="Gerar Senha",
     width=20,
     command=solicitar_senha
 ).pack(pady=10)
 
 Button(
     admin,
-    text="chamar próxima",
+    text="Chamar Próxima",
     width=20,
     command=chamar_senha
 ).pack(pady=10)
